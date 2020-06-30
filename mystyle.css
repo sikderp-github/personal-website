@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-text h3 {
+    color: rgb(207, 26, 96);
+    font-size: 30px;
+}
