@@ -1,10 +1,117 @@
 body {
-    background-color: aliceblue;
-    font-family: 'Lobster', cursive;
-    font-family: 'Roboto', sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+}
+p {
+  font-size: 18px;
+  font-weight: 550;
+}
+#top-head {
+  color: rgb(207, 26, 96);
+  font-size: 50px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 1000;
+}
+.top {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.top img {
+  width: 90%;
+  padding-right: 100px;
+  margin-right: 300px;
 }
 
-.top-text h3 {
-    color: rgb(207, 26, 96);
-    font-size: 30px;
+section {
+  height: 650px;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(
+    90deg,
+    rgb(255, 7, 160),
+    rgba(255, 0, 0, 0.795)
+  );
+  padding: 10px 20px;
+  border-radius: 9px;
+  color: white;
+  font-weight: 700;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 7%;
+  margin-top: 5%;
+  padding: 1%;
+}
+
+#top-profile {
+  float: left;
+  margin-left: 0%;
+  margin-top: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.latest-work img {
+  width: 27%;
+  float: left;
+  margin-left: 4%;
+  margin-top: 20px;
+  padding: 1%;
+}
+.dream {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0px;
+}
+#biography-txt {
+  margin-top: 100px;
+  padding-top: 20px;
+}
+.latest-work h2 {
+  text-align: center;
+}
+.latest-work {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding-top: 20px;
+  height: 500px;
+}
+.client-comment {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  height: 550px;
+  margin-bottom: 50px;
+}
+
+#contact {
+  height: 225px;
+  box-shadow: white;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    90deg,
+    rgba(212, 51, 172, 0.897),
+    rgba(255, 0, 0, 0.74)
+  );
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  margin: 0px 200px;
+  padding: 5px;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
 }
